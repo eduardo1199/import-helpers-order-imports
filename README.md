@@ -30,7 +30,7 @@ yarn add eslint-plugin-import-helpers -D
             '/^./utils/',
             ['parent', 'sibling', 'index'],
         ],
-        alphabetize: { ignoreCase: true },
+        alphabetize: { order: 'asc', ignoreCase: true },
       }
     ],
   },
