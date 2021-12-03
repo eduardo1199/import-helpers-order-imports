@@ -2,10 +2,8 @@
 
 
  rules: {
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'error',
     'import-helpers/order-imports': [
-      'warn',
+      'error',
       { 
           newlinesBetween: 'always',
           groups: [
