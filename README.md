@@ -1,5 +1,10 @@
-# import-helpers-order-imports
+#Import-helpers-order-imports
 
+##Install dev dependecies 
+
+yarn add eslint-plugin-import-helpers -D
+
+##Config
 
  rules: {
     'import-helpers/order-imports': [
